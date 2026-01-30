@@ -1,4 +1,4 @@
-# Full linux dev stack
+# Full linux PDE
 
 **Desktop:** `Gnome`
 
