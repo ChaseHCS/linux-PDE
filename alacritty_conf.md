@@ -2,6 +2,17 @@
 
 Alacritty conf file is located in "~/.config/alacritty/alacritty.toml"
 
+## Dependencies
+
+```zsh
+$ sudo apt install -y alacritty 
+$ mkdir -p ~/.local/share/fonts
+$ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip
+$ unzip -o JetBrainsMono.zip -d ~/.local/share/fonts
+$ rm JetBrainsMono.zip
+$ fc-cache -fv
+```
+
 ## ~/.config/alacritty/alacritty.toml
 
 ```toml
@@ -68,4 +79,20 @@ bindings = [
   { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
   { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
 ]
+```
+
+## Complexities
+
+Using `alacritty` will mean that the standard shell upgrade will change slightly since the victim will have `no fucking idea` what `alacritty` is.
+
+```bash
+# Typical Shell Stabilization Workflow
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+Ctrl+Z
+
+# In your Alacritty terminal:
+stty raw -echo; fg
+
+# Back in the victim shell:
+export TERM=xterm-256color   <-- CRITICAL STEP
 ```
