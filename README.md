@@ -6,6 +6,6 @@
 
 **Multiplexer:** `Tmux`
 
-**Shell:** `Zsh` WITH `Oh My Zsh`
+**Shell:** `Zsh` *with* `Oh My Zsh`
 
-**Editor:** `Neovim` WITH `LazyVim`
+**Editor:** `Neovim` *with* `LazyVim`
