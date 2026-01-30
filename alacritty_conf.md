@@ -87,6 +87,10 @@ program = "/usr/bin/zsh"
 
 ```
 
+## CMDs
+
+### !!! Tmux CMDs take precedence over Alacritty CMDs. For ease of use (while maintaining full functionality) just default to Tmux CMDs.
+
 ## Complexities
 
 Using `alacritty` will mean that the standard shell upgrade will change slightly since the victim will have `no fucking idea` what `alacritty` is.
