@@ -1,5 +1,7 @@
 # Full linux dev stack
 
+Desktop: KDE Plasma
+
 Terminal: Alacritty (Fast, GPU rendering for smooth scrolling).
 
 Multiplexer: Tmux (Manages windows/panes).
