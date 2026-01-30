@@ -1,1 +1,9 @@
-[//]: # (this file is located in ~/.config/nvim/)
+# Nvim Config
+
+Nvim conf file is located in "~/.config/nvim/init.lua"
+
+## ~/.config/nvim/init.lua
+
+```lua
+
+```
