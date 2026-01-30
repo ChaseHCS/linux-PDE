@@ -1,1 +1,1 @@
-# this file is located in ~/.config/nvim/
+'this file is located in ~/.config/nvim/'
