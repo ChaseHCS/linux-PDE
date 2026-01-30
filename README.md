@@ -2,10 +2,10 @@
 
 Desktop: Gnome
 
-Terminal: Alacritty (Fast, GPU rendering for smooth scrolling).
+Terminal: Alacritty
 
-Multiplexer: Tmux (Manages windows/panes).
+Multiplexer: Tmux
 
-Shell: Zsh.
+Shell: Zsh WITH Oh My Zsh
 
-Editor: Neovim (With escape-time 0 in tmux so it feels snappy).
+Editor: Neovim WITH LazyVim
