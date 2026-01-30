@@ -1,6 +1,6 @@
 # Full linux dev stack
 
-Desktop: KDE Plasma
+Desktop: Gnome
 
 Terminal: Alacritty (Fast, GPU rendering for smooth scrolling).
 
