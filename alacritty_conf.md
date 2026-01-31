@@ -18,6 +18,11 @@ $ fc-cache -fv
 ## ~/.config/alacritty/alacritty.toml
 
 ```toml
+# Terminal settings
+
+[terminal]
+shell = { program = "/usr/bin/zsh", args = ["-l"] }
+
 # ----------------------------------------------------------------------------
 # Window Settings
 # ----------------------------------------------------------------------------
@@ -81,9 +86,6 @@ bindings = [
   { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
   { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
 ]
-
-[shell]
-program = "/usr/bin/zsh"
 
 ```
 
