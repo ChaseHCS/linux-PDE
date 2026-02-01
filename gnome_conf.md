@@ -7,6 +7,6 @@ Run the following
 ```bash
 $ sudo apt install gnome-shell-extension-manager gir1.2-gtop-2.0 lm-sensors
 
-Then open the extension manager and install Vitals
+Then open the extension manager GUI and install Vitals
 
 ```
