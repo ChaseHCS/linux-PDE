@@ -4,7 +4,7 @@ zsh conf file is located at ~/.zshrc
 
 ### Distro = OMZ
 
-## Dependencies
+## Install
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
