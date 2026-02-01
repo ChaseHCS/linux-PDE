@@ -27,3 +27,7 @@ $ cp ~/.oh.my.zsh/themes/alanpeabody.zsh-theme ~/.oh.my.zsh/themes/alanpeabody-c
 local user='%{$fg[blue]%}%B%n%b@%{$fg[blue]%}%B%m%B%{$reset_color%}'
 
 ```
+
+## Complexities
+
+Need to learn more, plenty of awesome CMDs and plugins.
