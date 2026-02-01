@@ -7,7 +7,14 @@ zsh conf file is located at ~/.zshrc
 ## Dependencies
 
 ```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+## ~/.zshrc
+``` bash
+```
+
+
 
 ## ~/.oh.my.zsh/themes/alnpeabody.zsh-theme
 
@@ -19,9 +26,4 @@ $ cp ~/.oh.my.zsh/themes/alanpeabody.zsh-theme ~/.oh.my.zsh/themes/alanpeabody-c
 # Change top of the line for custom config
 local user='%{$fg[blue]%}%B%n%b@%{$fg[blue]%}%B%m%B%{$reset_color%}'
 
-```
-
-## ~/.zshrc
-
-```zsh
 ```
