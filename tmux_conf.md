@@ -20,3 +20,7 @@ set -g pane-border-lines heavy
 run '~/.tmux/plugins/tpm/tpm'
 
 ```
+
+## Complexities
+
+Really the only thing you need to remember is the command buttons and some basic cmds. To enter CMD mode enter `Ctrl + b + :`
